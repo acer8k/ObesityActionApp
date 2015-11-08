@@ -3,4 +3,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!--overview_screen.xml-->
+    <string name="Obseity_info">Being obese means having so much body fat that your health is in danger. Having too much body fat can lead to type 2 diabetes, heart disease, high blood pressure, arthritis, sleep apnea, and stroke.</string>
+
+    <string name="Obseity_how">You can use a measurement called a body mass index, or BMI, along with your waist sizecamera.gif, to decide whether your weight is dangerous to your health. The BMI is a combination of your height and weight. If you have a BMI of 30 or higher, unhealthy eating patterns, and too little physical activity, your extra weight is putting your health in danger.</string>
+
+
 </resources>

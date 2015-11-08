@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/kl">
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FC9"
+        android:gravity="center" >
+
+        <ImageView android:id="@+id/imageView1"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@drawable/overview"
+            android:paddingRight="30dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_alignBottom="@+id/view1" />
+        <View android:layout_height="wrap_content"
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignBottom="@+id/textView12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Overview"
+            android:textStyle="bold"
+            android:id="@+id/textView12"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginRight="170dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="0dp" />
+    </RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FC0"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Fixed Footer"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <!-- Scrollable Item below header and above footer -->
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:background="#005"
+        android:layout_below="@id/header" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="#e0ffc6">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="What is obesity?"
+                android:id="@+id/textView3"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff0c050d"
+                android:layout_below="@+id/textView16"
+                android:layout_weight="6.18"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Obseity_info"
+                android:id="@+id/textView4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#ff0c050d"
+                android:layout_below="@+id/textView16"
+                android:layout_weight="6.18"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:accessibilityLiveRegion="none"
+                android:autoText="false"
+                android:capitalize="sentences" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How do you know if you are obese?"
+                android:id="@+id/textView5"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff0c050d"
+                android:layout_below="@+id/textView16"
+                android:layout_weight="6.18"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Obseity_how"
+                android:id="@+id/textView6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#ff0c050d"
+                android:layout_below="@+id/textView16"
+                android:layout_weight="6.18"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:accessibilityLiveRegion="none"
+                android:autoText="false"
+                android:capitalize="sentences" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
