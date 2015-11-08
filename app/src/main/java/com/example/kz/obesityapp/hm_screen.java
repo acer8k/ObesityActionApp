@@ -20,8 +20,8 @@ public class hm_screen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homescreen);
 
-        Button xml_askfeed = (Button) findViewById(R.id.btn_over);
-        xml_askfeed.setOnClickListener(new View.OnClickListener() {
+        Button btn2overview = (Button) findViewById(R.id.btn_over);
+        btn2overview.setOnClickListener(new View.OnClickListener() {
 
              @Override
              public void onClick(View v) {

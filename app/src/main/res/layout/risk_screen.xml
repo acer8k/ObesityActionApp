@@ -15,12 +15,12 @@
         android:gravity="center" >
 
         <ImageButton
-            android:id="@+id/btn_202"
-            android:layout_width="75px"
-            android:layout_height="75px"
+            android:id="@+id/btn_20"
+            android:layout_width="85px"
+            android:layout_height="85px"
             android:layout_marginLeft="265dp"
             android:layout_marginTop="2dp"
-            android:background="@drawable/overview_org"
+            android:background="@drawable/risk"
             android:layout_alignParentLeft="false"
             android:layout_alignParentBottom="false"
             android:layout_alignParentRight="true"
@@ -34,14 +34,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Overview"
+            android:text="Are you At Risk?"
             android:textStyle="bold"
             android:id="@+id/textView12"
             android:textColor="@android:color/holo_red_dark"
-            android:layout_marginRight="170dp"
             android:textSize="35dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="2dp" />
+            android:layout_marginLeft="0dp" />
     </RelativeLayout>
 
     <!-- Footer aligned to bottom -->
@@ -60,7 +58,6 @@
             android:id="@+id/btn_1"
             android:layout_width="85px"
             android:layout_height="85px"
-            android:layout_marginTop="2dp"
             android:layout_gravity="left"
             android:layout_marginRight="256dp"
             android:background="@drawable/home" />
@@ -70,8 +67,7 @@
             android:layout_width="85px"
             android:layout_height="85px"
             android:layout_marginLeft="265dp"
-            android:layout_marginTop="2dp"
-            android:background="@drawable/risk"
+            android:background="@drawable/sign"
             android:layout_alignParentLeft="false"
             android:layout_alignParentBottom="false"
             android:layout_alignParentRight="true"
@@ -79,13 +75,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Are you at risk?"
-            android:textColor="#f9302a"
-            android:textSize="20sp"
+            android:text="Sign/Symptoms"
+            android:textColor="#f92b2b"
+            android:textSize="22dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="58dp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold" />
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="2dp" />
 
 
 
@@ -112,7 +107,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="What is obesity?"
+                android:text="Check your risk level"
                 android:id="@+id/textView3"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
@@ -126,7 +121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/Obseity_info"
+                android:text="@string/Risk_info"
                 android:id="@+id/textView4"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
