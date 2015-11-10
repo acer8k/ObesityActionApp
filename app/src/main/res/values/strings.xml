@@ -12,5 +12,11 @@
     <!--risk_screen.xml-->
     <string name="Risk_info">Being obese means having so much body fat that your health is in danger. Having too much body fat can lead to type 2 diabetes, heart disease, high blood pressure, arthritis, sleep apnea, and stroke.</string>
 
+    <!--signsymptpm_screen.xml-->
+    <string name="signsymptom_info">Weight gain usually happens over time</string>
+
+    <!--prevention_screen.xml-->
+    <string name="prevention_info">The prevention is to eat less food and gym 4 days a week.</string>
+
 
 </resources>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="#FC9"
+        android:background="#ff4524"
         android:gravity="center" >
 
         <ImageButton
@@ -20,7 +20,7 @@
             android:layout_height="85px"
             android:layout_marginLeft="265dp"
             android:layout_marginTop="2dp"
-            android:background="@drawable/risk"
+            android:background="@drawable/tips"
             android:layout_alignParentLeft="false"
             android:layout_alignParentBottom="false"
             android:layout_alignParentRight="true"
@@ -34,11 +34,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Are you At Risk?"
+            android:text="Tips"
             android:textStyle="bold"
             android:id="@+id/textView12"
-            android:textColor="@android:color/holo_red_dark"
-            android:textSize="35dp"
+            android:textColor="#010000"
+            android:textSize="32dp"
             android:layout_marginLeft="0dp" />
     </RelativeLayout>
 
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#f8f3ad"
+        android:background="#f80d14"
         android:gravity="center"
         android:layout_alignParentEnd="false"
         android:layout_alignParentRight="false"
@@ -67,7 +67,7 @@
             android:layout_width="85px"
             android:layout_height="85px"
             android:layout_marginLeft="265dp"
-            android:background="@drawable/sign"
+            android:background="@drawable/contact"
             android:layout_alignParentLeft="false"
             android:layout_alignParentBottom="false"
             android:layout_alignParentRight="true"
@@ -75,12 +75,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign/Symptoms"
-            android:textColor="#f92b2b"
+            android:text="Contact Us"
+            android:textColor="#010000"
             android:textSize="20dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"/>
 
 
 
@@ -100,14 +100,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#a59785"
+            android:background="#aaef28"
             android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Check your risk level"
+                android:text="Check you some new tips"
                 android:id="@+id/textView3"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
@@ -121,7 +121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/Risk_info"
+                android:text="@string/prevention_info"
                 android:id="@+id/textView4"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"

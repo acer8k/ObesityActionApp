@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 /**
- * Created by dark_ on 11/8/2015.
+ * Created by dark_ on 11/9/2015.
  */
-public class AreYouAtRisk extends Activity {
+public class Prevention extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.risk_screen);
+        setContentView(R.layout.prevention_screen);
 
         ImageButton bt2home = (ImageButton) findViewById(R.id.btn_1);
         bt2home.setOnClickListener(new View.OnClickListener() {
@@ -25,31 +25,31 @@ public class AreYouAtRisk extends Activity {
                                        }
                                    }
         );
-
-//////////
-        ImageButton bt2risk = (ImageButton) findViewById(R.id.btn_2);
-        bt2risk.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View v) {
-                                           // TODO Auto-generated method stub
-                                           startActivity(new Intent("android.intent.action.SignSymptoms"));
-                                       }
-                                   }
+        //////////
+        ImageButton bt2prevention = (ImageButton) findViewById(R.id.btn_2);
+        bt2prevention.setOnClickListener(new View.OnClickListener() {
+                                             @Override
+                                             public void onClick(View v) {
+                                                 // TODO Auto-generated method stub
+                                                 startActivity(new Intent("android.intent.action.Tips"));
+                                             }
+                                         }
         );
     }
-
-//////////
 }
 
 
+
 /*
-public class StagesPU extends Activity{
+
+public class PreventPU extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.xml_stages);
+        setContentView(R.layout.xml_prevent);
     }
+
 }
 
  */
