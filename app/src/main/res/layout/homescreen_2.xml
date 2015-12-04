@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb32e"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb32e">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:background="#f6edff">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton2"
+                        android:layout_column="0"
+                        android:background="@drawable/overview" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="OVERVIEW?"
+                        android:id="@+id/textView8"
+                        android:layout_marginLeft="35px"
+                        android:textColor="#010101"
+                        android:layout_marginTop="50px"
+                        android:layout_marginRight="10px" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:background="#f6edff">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/">
+
+                    <ImageButton
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton3"
+                        android:layout_column="0"
+                        android:background="@drawable/risk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ARE YOU AT RISK?"
+                        android:id="@+id/textView9"
+                        android:layout_marginLeft="35px"
+                        android:textColor="#010101"
+                        android:layout_marginTop="50px"
+                        android:layout_marginRight="10px" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:background="#f6edff">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton4"
+                        android:layout_column="0"
+                        android:background="@drawable/sign" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Sign and Symptoms"
+                        android:id="@+id/textView10"
+                        android:layout_marginLeft="35px"
+                        android:textColor="#010101"
+                        android:layout_marginTop="50px"
+                        android:layout_marginRight="10px" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:background="#f6edff">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton5"
+                        android:layout_column="0"
+                        android:background="@drawable/prevention" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="PREVENTION"
+                        android:id="@+id/textView11"
+                        android:layout_marginLeft="35px"
+                        android:textColor="#010101"
+                        android:layout_marginTop="50px"
+                        android:layout_marginRight="10px" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:background="#f6edff">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton6"
+                        android:layout_column="0"
+                        android:background="@drawable/tips" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="EXTRAS"
+                        android:id="@+id/textView12"
+                        android:layout_marginLeft="35px"
+                        android:textColor="#010101"
+                        android:layout_marginTop="50px"
+                        android:layout_marginRight="10px" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -12,7 +12,31 @@
         android:layout_height="wrap_content"
         android:text="...Overview..."
         android:id="@+id/btn_over"
+        android:layout_marginTop="73dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="176dp" />
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATOR"
+        android:id="@+id/button2"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/btn_over"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Calc"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="73dp" />
 </RelativeLayout>

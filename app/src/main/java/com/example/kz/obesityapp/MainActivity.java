@@ -17,15 +17,27 @@ public class MainActivity extends AppCompatActivity {
 
         Button xml_whatpu = (Button) findViewById(R.id.button);
         xml_whatpu.setOnClickListener(new View.OnClickListener() {
-     @Override
-              public void onClick(View v) {
-           // TODO Auto-generated method stub
-           startActivity(new Intent("android.intent.action.hm_screen"));
+                                          @Override
+                                          public void onClick(View v) {
+         // TODO Auto-generated method stub
+             startActivity(new Intent("android.intent.action.hm_screen"));
 
-            }
-              }
+           }
+           }
         );
         /////////////
+
+
+        Button xml_hm2 = (Button) findViewById(R.id.button4);
+        xml_hm2.setOnClickListener(new View.OnClickListener() {
+                                          @Override
+                                          public void onClick(View v) {
+          // TODO Auto-generated method stub
+            startActivity(new Intent("android.intent.action.hm_screen2"));
+
+                    }
+                                      }
+        );
     }
 
     @Override

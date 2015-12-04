@@ -18,5 +18,64 @@
     <!--prevention_screen.xml-->
     <string name="prevention_info">The prevention is to eat less food and gym 4 days a week.</string>
 
+    <!--bmi_cal_screen.xml-->
+
+
+    <!--  labels for widgets -->
+    <string name="heightLabel">Height</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="EmptyString"></string>
+    <string name="weightLabel">Weight</string>
+    <string name="bmiLabel">Body Mass Index:</string>
+
+    <!--  the BMI descriptions -->
+    <string name="bmiNormal">Normal</string>
+    <string name="bmiOver">Overweight</string>
+    <string name="bmiUnder">Underweight</string>
+    <string name="bmiSUnder">Severely Underweight</string>
+    <string name="bmiObese">Obese</string>
+    <string name="being_healthy_quote">Being healthy is a lifestyle not a diet!</string>
+    <string name="infokurz">calculator example</string>
+
+
+    <!--  Strings arrays used in Spinner widgets -->
+    <string-array name="heightUnitsArray">
+        <item >feet/inch</item>
+        <item >m/cm</item>
+    </string-array>
+    <string-array name="weightUnitsArray">
+        <item >lb</item>
+        <item >kg</item>
+    </string-array>
+
+    <!--  Colors used to used in the labels and the backgrounds -->
+    <color name="colorRed">#ff0000</color>
+    <color name="colorYellow">#00ffff</color>
+    <color name="colorGreen">#3661d9</color>
+    <color name="colorPurple">#d760a7</color>
+    <color name="colorBG">#bbeceb</color>
+    <color name="black">#000000</color>
+
+    <!--calories_screen.xml-->
+
+    <string name="hello">Check your calories!</string>
+    <string name="OpeningString"></string>
+    <string name="countCalorie">Count your calories!</string>
+    <string name="weightR">Weight(kg):</string>
+    <string name="ageR">Age:</string>
+    <string name="heightR">Height(cm):</string>
+    <string name="countButtonR">Count</string>
+    <string name="consumptionR">Your caloric consumption is:</string>
+    <string name="resultR">0</string>
+    <string name="zeroR">zero</string>
+    <string name="kcalfinal">0</string>
+    <string name="counterString">0</string>
+
+    <!-- Spinners stuff -->
+
+    <string-array name="gender">
+        <item id="maleid">Male</item>
+        <item id="femaleid">Female</item>
+    </string-array>
 
 </resources>

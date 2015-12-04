@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 /**
- * Created by dark_ on 11/9/2015.
+ * Created by dark_ on 11/10/2015.
  */
-public class Tips extends Activity {
+public class ContactUs extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tips_screen);
+        setContentView(R.layout.contact_screen);
 
         ImageButton bt2home = (ImageButton) findViewById(R.id.btn_1);
         bt2home.setOnClickListener(new View.OnClickListener() {
@@ -31,11 +31,9 @@ public class Tips extends Activity {
                                              @Override
                                              public void onClick(View v) {
                                                  // TODO Auto-generated method stub
-                                                 startActivity(new Intent("android.intent.action.BMICalc"));
+                                                 startActivity(new Intent("android.intent.action.hm_screen"));
                                              }
                                          }
         );
     }
 }
-
-

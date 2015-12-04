@@ -20,13 +20,36 @@ public class hm_screen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homescreen);
 
+        Button btn2carcalc= (Button) findViewById(R.id.button3);
+        btn2carcalc.setOnClickListener(new View.OnClickListener() {
+
+                                            @Override
+                                            public void onClick(View v) {
+                                                // TODO Auto-generated method stub
+                                                startActivity(new Intent("android.intent.action.CalcCalories"));
+                                            }
+                                        }
+        );
+
         Button btn2overview = (Button) findViewById(R.id.btn_over);
         btn2overview.setOnClickListener(new View.OnClickListener() {
+
+                                            @Override
+                                            public void onClick(View v) {
+                                                // TODO Auto-generated method stub
+                                                startActivity(new Intent("android.intent.action.OverView"));
+                                            }
+                                        }
+        );
+
+
+        Button btn2bmicalc = (Button) findViewById(R.id.button2);
+        btn2bmicalc.setOnClickListener(new View.OnClickListener() {
 
              @Override
              public void onClick(View v) {
           // TODO Auto-generated method stub
-           startActivity(new Intent("android.intent.action.OverView"));
+           startActivity(new Intent("android.intent.action.BMICalc"));
              }
              }
         );
