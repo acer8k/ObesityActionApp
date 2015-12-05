@@ -22,14 +22,69 @@ public class hm_screen2 extends Activity {
         ImageButton btn_h2overview = (ImageButton) findViewById(R.id.imageButton2);
         btn_h2overview.setOnClickListener(new View.OnClickListener() {
 
-        @Override
-        public void onClick(View v) {
-           // TODO Auto-generated method stub
-          startActivity(new Intent("android.intent.action.OverView"));
-                   }
-           }
+                                              @Override
+                                              public void onClick(View v) {
+                                                  // TODO Auto-generated method stub
+                                                  startActivity(new Intent("android.intent.action.OverView"));
+                                              }
+                                          }
         );
         // OVERVIEW SCREEN ENDS
+
+        // RISK SCREEN STARTS
+        ImageButton btn_h2risk = (ImageButton) findViewById(R.id.imageButton3);
+        btn_h2risk.setOnClickListener(new View.OnClickListener() {
+
+           @Override
+          public void onClick(View v) {
+          // TODO Auto-generated method stub
+           startActivity(new Intent("android.intent.action.AreYouAtRisk"));
+              }
+                      }
+        );
+        // RISK SCREEN ENDS
+
+        // SignSymptoms SCREEN STARTS
+        ImageButton btn_h2sign = (ImageButton) findViewById(R.id.imageButton4);
+        btn_h2sign.setOnClickListener(new View.OnClickListener() {
+
+         @Override
+          public void onClick(View v) {
+              // TODO Auto-generated method stub
+           startActivity(new Intent("android.intent.action.SignSymptoms"));
+            }
+           }
+        );
+        // SignSymptoms SCREEN ENDS
+
+        // Prevention SCREEN STARTS
+        ImageButton btn_h2prevention = (ImageButton) findViewById(R.id.imageButton5);
+        btn_h2prevention.setOnClickListener(new View.OnClickListener() {
+
+        @Override
+          public void onClick(View v) {
+           // TODO Auto-generated method stub
+           startActivity(new Intent("android.intent.action.Prevention"));
+             }
+             }
+        );
+        // Prevention SCREEN ENDS
+
+        // Prevention SCREEN STARTS
+        ImageButton btn_h2tipsEx = (ImageButton) findViewById(R.id.imageButton6);
+        btn_h2tipsEx.setOnClickListener(new View.OnClickListener() {
+
+        @Override
+      public void onClick(View v) {
+         // TODO Auto-generated method stub
+           startActivity(new Intent("android.intent.action.Tips"));
+            }
+            }
+        );
+        // Prevention SCREEN ENDS
+
+
+
 
     }
 }
